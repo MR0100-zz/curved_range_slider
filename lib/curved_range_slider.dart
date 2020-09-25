@@ -43,8 +43,8 @@ class _CurvedSliderState extends State<CurvedSlider> {
   GlobalKey _kC2 = GlobalKey();
 
   /// _sliderCircleSize....
-  Size kC1Size = Size(30, 30);
-  Size kC2Size = Size(30, 30);
+  Size kC1Size = Size(35, 35);
+  Size kC2Size = Size(35, 35);
 
   /// _sliderCircleInitialPosition...
   double kC1Position = 15.0;
@@ -55,7 +55,7 @@ class _CurvedSliderState extends State<CurvedSlider> {
   Offset kC2RenderPosition = Offset(100, 0);
 
   /// _sliderCircleTopPadding....
-  double buttonTopPadding = 15.0;
+  double buttonTopPadding = 8.0;
 
   _CurvedSliderState(this.screenSize);
 
